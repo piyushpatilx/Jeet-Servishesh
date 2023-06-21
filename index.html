@@ -1,60 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeet Servishesh</title>
-    <link rel="stylesheet" href="./bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-      li {
-        margin: 9px;
-        padding: 5px;
-      
-      }
-      #int {
-        border-radius: 20px;
-      }
-      img {
-        margin: 5px;
-      }
-     #contact {
-      margin: 20%;
-     }
-     #title {
-      font-family: Georgia, 'Times New Roman', Times, serif;
-     }
+        /* Custom Styles */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f8f8f8;
+        }
+        
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .intro {
+            background-image: url('https://apollouniversity.edu.in/blog/wp-content/uploads/2022/12/BSc-in-Medical-Lab-Technology.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .products {
+            padding: 40px 0;
+        }
+        
+        .item {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .item h3 {
+            margin-top: 0;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .footer p {
+            margin-bottom: 5px;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        
+        nav a {
+            color: #fff;
+            margin-right: 10px;
+        }
+        
+        nav a:hover {
+            color: #ccc;
+        }
     </style>
 </head>
 <body>
-       <h1 id="title" align="center" class="bg-black text-white">Jeet Servishesh</h1>
-       <nav>
-        <ul class="list-group list-group-horizontal bg-primary">
-          <a href="index.html"><li class="btn btn-light">Home</li></a>
-          <a href="#products"><li class="btn btn-light">Products</li></a>
-          <a href="#contact"><li class="btn btn-light">Contact</li></a>
-        </ul>
-       </nav>
-       <section id="intro" align="center" >
-        <img id="int" src="contact.png" alt="intro">
-       </section>
-       <section id="products" align="center">
-        <img src="p1.png">
-        <img src="p2.png">
-        <img src="p3.png">
-        <img src="p4.png">
-        <img src="p5.png">
-        <img src="p6.png">
-        <img src="p7.png">
-        <img src="p8.png">
-        <img src="p9.png">
-        <img src="p10.png">
-
-       </section>
-       <section id="contact" align="center">
-        <h2>Contact Details: </h2>
-       <b> Mr. Vishal Bhosale</b> <br>
-        <b>Mob: +91 8623841811</b> <br>
-        <b>E-Mail : servicejeet02@mail.com</b> <br>
-       </section>
+    <div class="header">
+        <h1>Jeet Servishesh</h1>
+    </div>
+    
+    <nav>
+        <div class="container">
+            <a class="btn btn-outline-light" href="#intro">Home</a>
+            <a class="btn btn-outline-light" href="#products"> Products</a>
+            <a class="btn btn-outline-light" href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+    <div class="intro" id="intro">
+        <div class="container">
+            <h2>Medical equipments & Hospital furnitures</h2>
+            
+        </div>
+    </div>
+    
+    <div class="products" id="products">
+        <div class="container">
+                <div >
+                    <div class="item">
+                        <img src="p1.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="p2.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p3.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p4.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p5.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p6.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p7.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p8.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p9.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <div >
+                    <div class="item">
+                        <img src="p10.png" width="100%">
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+                <!-- Add more items here -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer" id="contact">
+        <div class="container">
+            <p>Contact Information:</p>
+            <p>Name: Mr. Vishal Bhosale</p>
+            <p>Email: <a href="mailto:info@example.com">servicejeet02@mail.com</a></p>
+            <p>Mobile: +91 8623841811</p>
+            <p>Address: 123 Street, City, Country</p>
+            <p>&copy; 2023 Jeet Servishesh. All rights reserved.</p>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
