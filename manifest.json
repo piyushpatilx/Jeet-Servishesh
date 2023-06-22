@@ -1,17 +1,17 @@
 {
-    "lang": "en-us",
-    "name": "Jeet Servishesh",
-    "short_name": "Jeet Servishesh",
-    "description": "Medical equipments & Hospital furnitures",
-    "start_url": "/",
-    "background_color": "#2f3d58",
-    "theme_color": "#2f3d58",
-    "orientation": "any",
-    "display": "standalone",
-    "icons": [
-        {
-            "src": "/icon.png",
-            "sizes": "512x512"
-        }
-    ]
+  "lang": "en-us",
+  "name": "Jeet Servishesh",
+  "short_name": "Jeet Servishesh",
+  "description": "Medical equipments &amp; Hospital furnitures",
+  "start_url": "/",
+  "background_color": "#2f3d58",
+  "theme_color": "#2f3d58",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512"
+    }
+  ]
 }
